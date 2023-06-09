@@ -1,4 +1,27 @@
-.container input::after {
-    background-color: #91c788;
+body {
+  width: 100vw;
+  height: auto;
+  background-color: #feffde !important;
+  /* border: 2px solid black !important; */
+}
 
+.card {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+.upper-card {
+  background-color: #abc4aa !important;
+  margin-top: 5rem;
+}
+
+.container-recipe-info {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1.5rem;
+  margin-top: 5rem;
+  background-color: #abc4aa !important;
+
+  /* border: 12px solid red !important; */
 }
