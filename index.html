@@ -6,16 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="./style.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/4e581c5e2a.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<title>Cook Book</title>
 </head>
 
 <body>
     <!-- section-1  Nav bar and hero-->
+    
     <nav class="navbar navbar-expand-lg bg-body-tertiary ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"> <img src="./img/chef.png" alt="Bootstrap" width="30" height="24"> My Home
@@ -27,48 +32,108 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Recipes</a>
+                        <a class="nav-link" aria-current="page" href="#recipe">Recipes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">WorkShop</a>
+                        <a class="nav-link" href="#workshop">WorkShop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Subscribe</a>
+                        <a class="nav-link" href="#subscribe">Subscribe</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-  
+    <div class="parent">
     <div class="hero">
         <h1>My Home Kitchen</h1>
-        <h3>Where every flavor tells a story</h3>
+        <h3>"Where every flavor tells a story"</h3>
 
 
 
     </div>
-  
-    <!-- section-2 Recipes and WorkShop-->
-    <div class="container text-center">
-        <div class="row">
 
-            <div class="col">
-                Column
-            </div>
-            <div class="col">
-                Column
-            </div>
+    <!-- section-2 Recipes and WorkShop-->
+    <div id="recipe" class="recipes">
+      
+    <div class="row row-cols-1 row-cols-md-3 g-4 card-ele">
+        <div class="col">
+        <div class="card h-100">
+            <img src="./img/recipe 1.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Home Made Pizza</h5>
+            <p class="card-text">Pizza is a dish of Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven.</p>
+            <a class="btn btn-primary" href="./pizza.html" role="button">Lets Cook</a>
+          </div>
+        </div>
+        </div>
+        <div class="col">
+        <div class="card h-100">
+            <img src="./img/recipe 2.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Salmon Steamed Vegetables</h5>
+            <p class="card-text">Salmon is a good source of protein, which is important for maintaining bone health, preventing muscle loss and helping the body heal and repair.Cooking is a process that involves three core parts: recipes, ingredients, and preparation.</p>
+            <a class="btn btn-primary" href="./salmon.html" role="button">Lets Cook</a>
+          </div>
+        </div>
+        </div>
+        <div class="col">
+        <div class="card h-100">
+            <img src="./img/recipe 3.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Souvlaki</h5>
+            <p class="card-text">Souvlaki, is a popular Greek fast food consisting of small pieces of meat and sometimes vegetables grilled on a skewer. It is usually eaten straight off the skewer while still hot.It can be served with or inside a rolled pita, typically with lemon.</p>
+            <a class="btn btn-primary" href="./souvlaki.html" role="button">Lets Cook</a>
+          </div>
+        </div>
         </div>
     </div>
+    </div>
+    
+    <div id="workshop" class="card workshop mb-3">
+        <img src="./img/Workshop.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Our Workshop</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consectetur culpa a libero harum praesentium quae atque, maiores modi aperiam dolore illum! Error aut dolore soluta culpa sint? Inventore eaque recusandae fugit expedita odio quae nam, sapiente soluta ad eligendi.</p>
+        <p class="card-text"><small class="text-muted"></small></p>
+        <button type="button" class="btn btn-secondary">Sign up now</button>
+        </div>
+    </div>
+    </div>
+
+
+
     <!-- section-3 Get updated-->
+    <div id="subscribe" class="updates">
+        <form class="row update-card g-3">
+            <div class="col-auto">
+            <label for="inputPassword2" class="visually-hidden">Password</label>
+            <input type="email" class="form-control" id="inputPassword2" placeholder="Email">
+            </div>
+            <div class="col-auto">
+            <button type="submit" class="btn btn-secondary mb-3">Get Updates</button>
+            </div>
+        </form>
+</div>
+</div>
 
-  
-  
     <!-- section-4 Footer-->
+    <footer>
+      <div class="footer-top">
+        <i class="fa-brands fa-2xl fa-facebook"></i>
+        <i class="fa-brands fa-2xl fa-instagram"></i>
+        <i class="fa-brands fa-2xl fa-twitter"></i>
+        <i class="fa-solid fa-2xl fa-envelope"></i>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Bootstrap Project WBS</p>
+      </div>
 
 
-        <script src="script.js"></script>
 
+
+    </footer>
 </body>
+</html>
 
 </html>
